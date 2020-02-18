@@ -12,7 +12,7 @@
     </div>
     <%=yield%>
     <br><br><br><br>
-    <% if !!Helper.current_user %>
+    <% if !!Helper.current_user(session) %>
       <form class="logout" action="/logout" method="get">
         <input type="submit" id="logout_button" value="Logout">
       </form>
