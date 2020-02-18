@@ -13,5 +13,6 @@ class Helper
       nil
     else
       true
+    end
   end
 end
